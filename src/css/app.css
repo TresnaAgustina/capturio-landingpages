@@ -160,11 +160,16 @@ body {
 }
 
 .img_container {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hero_images {
+  width: 30rem;
+  height: auto;
 }
 
 /*=====* style about *=====*/
@@ -448,6 +453,16 @@ body {
 @media screen and (min-width: 1524px) {
   body {
     padding: 0 10rem;
+  }
+
+  .img_container {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero_images {
+    width: auto;
+    height: auto;
   }
 }
 
