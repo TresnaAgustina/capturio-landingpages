@@ -98,7 +98,7 @@ body {
 .left_hero_content {
   position: relative;
   width: 100%;
-  height: 35rem;
+  height: 30rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -463,6 +463,10 @@ body {
   .hero_images {
     width: auto;
     height: auto;
+  }
+
+  .left_hero_content {
+    height: 35rem;
   }
 }
 
